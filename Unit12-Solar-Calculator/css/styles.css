@@ -1,0 +1,245 @@
+/* Solar Calculator Stylesheet */
+
+body {
+
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  background: #fff;
+}
+
+#wrapper {
+  width: 104%;
+	margin: 0 auto;
+  margin-left: -2%;
+	background-color: #fff;
+}
+
+#feedback p {
+  margin-left: 2%;
+}
+
+header {
+  width: 100%;
+  height: auto;
+  background-image: url('../images/SolarMatrix-Header-BG-v4.jpg');
+  background-repeat: repeat-y;
+  margin-top: -8px;
+}
+
+.header-logo {
+  margin-top:10px;
+  margin-left: 1%;
+}
+
+.one {
+  margin-left: 2%;
+  display: block;
+  width: 30px;
+  height: 30px;
+  background: #0071bc;
+  color: #fff;
+  float: left;
+  text-align: center;
+  margin-right:5px;
+  padding: 6px 0 0 0;
+}
+
+.one a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.two {
+    display: block;
+  width: 30px;
+  height: 30px;
+  background: #29abe2;
+  color: #fff;
+  float: left;
+  text-align: center;
+  margin-right:5px;
+  padding: 6px 0 0 0;
+}
+
+.two a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.three {
+    display: block;
+  width: 30px;
+  height: 30px;
+  background: #7cc6e0;
+  color: #fff;
+  float: left;
+  text-align: center;
+  margin-right:5px;
+  padding: 6px 0 0 0;
+}
+
+.three a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.backToTop  {
+  color: #f15a24;
+  margin-left: 2%;
+}
+.button {
+    background-color: #0071bc;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-left: 2%;
+}
+
+.button:hover {
+  background-color: #29abe2;
+}
+
+.logo {
+  color: #fff;
+  font-size: 200%;
+  position: relative;
+  top:0;
+  left:0;
+  margin-top: 20px;
+  float: left;
+}
+
+.company {
+  padding-top:13px;
+}
+
+.smallTxt {
+  font-size: 75%;
+  margin-left: 41px;
+}
+
+h2 {
+  color: #f15a24;
+  margin-bottom:-10px;
+}
+
+.instructions {
+  margin-left: 2%;
+}
+
+.map {
+  float: right;
+  width: 70%;
+}
+
+h1,h2,h3,h4,h5 {
+  font-family: 'Roboto Slab', serif;
+  font-style: normal;
+  font-weight: 400;
+  margin-left: 2%;
+  margin-bottom: -1px;
+}
+
+p {
+  width: 100%;
+  margin: 2% 3% 2% 2%;
+}
+
+fieldset {
+  padding: 1em;
+  font: 80%/1 sans-serif;
+  border: 1px solid #000;
+  margin:2%;
+}
+
+legend {
+  color: #0071bc;
+  font-size: 125%;
+}
+
+label {
+  display: inline-block;
+  float: left;
+  clear:left;
+  width: 4%;
+  margin-right: 0.5em;
+  padding-top: 0.9em;
+  text-align: right;
+}
+
+input {
+  display: inline-block;
+  float:left;
+  margin: 5px 6px;
+  align: right;
+  padding:3px;
+}
+
+input:focus {
+  background-color: #ffffcc;
+}
+
+.small {
+  display: inline-block;
+  float:left;
+  color: #707070;
+  font-size: 60%;
+  margin-left: 5px;
+  margin-top: 1.5em;
+  margin: 1.5em 0 0 5px;
+}
+
+select {
+  padding:10px;
+  float: left;
+}
+
+ol {
+  list-style-type: none;
+  color: #fff;
+  margin-left:-1%;
+}
+
+ol li {
+    margin-top: 8px;
+    padding-bottom: 10px;
+}
+
+ol li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+ol li a:hover {
+  color:#33ccff;
+  margin-left: 8px;
+}
+
+ul {
+  list-style-type: none;
+  float: right;
+  margin-right: 40%;
+}
+
+#powerUsage {
+  clear:both;
+  padding-top: 20px;
+}
+
+footer {
+  height: 200px;
+  background-color: #ccc;
+  color: #4d4d4d;
+}
+
+.footer-logo {
+  margin-bottom: -10px;
+  margin-left: 1%;
+}

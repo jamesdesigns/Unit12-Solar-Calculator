@@ -1,0 +1,182 @@
+@media only screen and (max-width: 400px) {
+
+/*-----BODY -----*/
+body {
+	font-family: 'Lato', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	background: #fff;
+}
+
+header {
+	width: 100%;
+	height: auto;
+  background-repeat: repeat-y;
+  margin-top: -8px;
+}
+
+header#image {
+	width: 100%;
+  height: auto;
+	background-image: url('../images/SolarMatrix-Header-BG-v4.jpg');
+}
+
+h1,h2,h3,h4,h5 {
+  font-family: 'Roboto Slab', serif;
+  font-style: normal;
+  font-weight: 400;
+  margin-left: 2%;
+  margin-bottom: -1px;
+}
+
+fieldset {
+  padding: 1em;
+  font: 80%/1 sans-serif;
+  border: 1px solid #000;
+  margin:2%;
+}
+
+legend {
+  color: #0071bc;
+  font-size: 125%;
+}
+
+label {
+  display: inline-block;
+  float: left;
+  clear:left;
+  width: 4%;
+  margin-right: 0.5em;
+  padding-top: 0.9em;
+  text-align: right;
+}
+
+.one {
+  margin-left: 2%;
+  display: block;
+  width: 30px;
+  height: 30px;
+  background: #0071bc;
+  color: #fff;
+  float: left;
+  text-align: center;
+  margin-right:5px;
+  padding: 6px 0 0 0;
+}
+
+.one a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.two {
+    display: block;
+  width: 30px;
+  height: 30px;
+  background: #29abe2;
+  color: #fff;
+  float: left;
+  text-align: center;
+  margin-right:5px;
+  padding: 6px 0 0 0;
+}
+
+.two a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.three {
+    display: block;
+  width: 30px;
+  height: 30px;
+  background: #7cc6e0;
+  color: #fff;
+  float: left;
+  text-align: center;
+  margin-right:5px;
+  padding: 6px 0 0 0;
+}
+
+.three a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.backToTop  {
+  color: #f15a24;
+  margin-left: 2%;
+}
+
+input {
+  display: inline-block;
+  float:left;
+  margin: 5px 6px;
+  align: right;
+  padding:3px;
+}
+
+input:focus {
+  background-color: #ffffcc;
+}
+
+/*-----NAVigation -----*/
+ol {
+  list-style-type: none;
+  color: #fff;
+  margin-left:-1%;
+  text-align: left;
+}
+
+
+/*-----CONTENT -----*/
+
+.map {
+  float: left;
+  width: 50%;
+}
+
+.button {
+    background-color: #0071bc;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 2px;
+    cursor: pointer;
+    margin-left: 2%;
+}
+
+.button:hover {
+  background-color: #29abe2;
+}
+
+/*----- FOOTER -----*/
+
+footer {
+	clear: both;
+	text-align: left;
+	padding: 1em;
+	background-color: #ccc;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.footer-logo {
+  margin-bottom: -10px;
+}
+
+.company {
+  padding-top:13px;
+}
+
+.company ul {
+	margin-bottom: 15px;
+}
+
+}

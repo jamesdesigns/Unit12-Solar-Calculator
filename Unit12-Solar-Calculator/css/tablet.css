@@ -1,0 +1,27 @@
+@media only screen and (min-width: 600px) {
+/*-----BODY -----*/
+	body {
+		font-family: 'Lato', sans-serif;
+	  font-style: normal;
+		font-weight: 400;
+		background: #fff;
+	}
+
+/*-----HEADER -----*/
+
+header {
+	width: 100%;
+  height: 450px;
+   background-image: url('../images/SolarMatrix-Header-BG-v4.jpg');
+  background-repeat: repeat-y;
+  margin-top: -8px;
+}
+
+/*-----CONTENT -----*/
+
+.map {
+  float: right;
+}
+
+
+}
